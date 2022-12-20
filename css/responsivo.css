@@ -1,0 +1,47 @@
+@media screen and (max-width:1200px) {
+    .navbar {
+        position: relative;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .logo {
+        margin: 0;
+        text-align: center;
+    }
+
+    .header {
+        padding-top: 50px;
+    }
+
+    .left-headline {
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .left-headline p {
+        text-align: center;
+    }
+
+    .right-img {
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .whats {
+        display: none;
+    }
+
+    .logo-rodape {
+        height: 100%;
+    }
+
+}
