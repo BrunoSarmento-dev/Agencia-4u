@@ -39,8 +39,12 @@
 
     .card {
         width: 100%;
-        height: 33%;
-        
+        height: 35%;
+    }
+
+    .card h3 {
+        border: none;
+        margin: 0;
     }
 
     .card:hover {
@@ -55,10 +59,26 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 5px;
     }
 
     .img-whats {
         display: none;
     }
 
+    @media only screen and (max-width: 600px) {
+        .servicos{
+            
+        }
+
+        .logotipo {
+            display: none;
+        }
+
+        .servicos h3,
+        p {
+            font-size: 80%;
+        }
+    }
 }
