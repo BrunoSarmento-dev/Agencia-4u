@@ -16,32 +16,49 @@
         padding-top: 50px;
     }
 
-    .left-headline {
+    .headline {
         flex: 100%;
         margin: 5%;
         text-align: center;
     }
 
-    .left-headline p {
+    .headline p {
+        text-align: justify;
+    }
+
+    .img-headline {
+        flex: 100%;
+        margin: 5%;
         text-align: center;
     }
 
-    .right-img {
-        flex: 100%;
-        margin: 5%;
+    .servicos {
+        display: block;
         text-align: center;
     }
 
     .card {
         width: 100%;
+        height: 33%;
+        
     }
 
-    .whats {
+    .card:hover {
+        height: 33%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logotipo {
+        width: 8%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-whats {
         display: none;
-    }
-
-    .logo-rodape {
-        height: 100%;
     }
 
 }
